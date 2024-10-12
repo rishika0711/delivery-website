@@ -79,14 +79,28 @@ const HeroContainer = styled.section`
     .hero-content {
       text-align: left;
     }
-    .heading {
-     font-size: 58px;
+    .heading{
+     font-size: 46px;
+    }
+      .sub-heading{
+     font-size: 40px;
     }
     h1{
-     font-size: 44px;
+     font-size: 38px;
     }
     .heading,
     .sub-heading {
+      text-align: left;
+    }
+  }
+  @media (max-width: 400px) {
+   .heading,
+    .sub-heading {
+     font-size:40px;
+    }
+  }
+  @media (max-width: 680px) {
+   .hero-content {
       text-align: left;
     }
   }
