@@ -74,8 +74,18 @@ const HeroContainer = styled.section`
     h1{
     font-size: 56px;
     }
-
-  @media (max-width: 550px) {
+   @media (max-width: 600px) {
+   .heading {
+     font-size:52px;
+    }
+    .sub-heading {
+     font-size:40px;
+    }
+     h1{
+     font-size:40px;
+     }
+  }
+  @media (max-width: 500px) {
     .hero-content {
       text-align: left;
     }
@@ -93,16 +103,29 @@ const HeroContainer = styled.section`
       text-align: left;
     }
   }
-  @media (max-width: 400px) {
-   .heading,
+  @media (max-width: 470px) {
+   .heading {
+     font-size:44px;
+    }
     .sub-heading {
-     font-size:40px;
+     font-size:30px;
     }
   }
   @media (max-width: 680px) {
    .hero-content {
       text-align: left;
     }
+  }
+  @media (max-width: 423px) {
+   .heading {
+     font-size:40px;
+    }
+    .sub-heading {
+     font-size:30px;
+    }
+     h1{
+     font-size:28px;
+     }
   }
 `;
 
