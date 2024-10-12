@@ -118,7 +118,7 @@ const HeroContainer = styled.section`
   }
   @media (max-width: 423px) {
    .heading {
-     font-size:40px;
+     font-size:36px;
     }
     .sub-heading {
      font-size:30px;
