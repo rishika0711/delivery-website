@@ -14,12 +14,13 @@ const HomePageScreen = () => {
             <span className="heading">DIAL-A-BOTTLE</span>
             <br />
             <span className="sub-heading">(LIQUOR DELIVERY)</span>
+            <h2>FAST 24/7 HOME DELIVERY</h2>
             <h1>AT YOUR DOORSTEP</h1>
             <CenteredContent>
               <ImageWrapper>
                 <img src={liquorImage} alt="Liquor bottles for delivery" />
               </ImageWrapper>
-              <CenteredPhoneNumber href="tel:7804714777" title="Call us now">780-471-4777</CenteredPhoneNumber>
+              <CenteredPhoneNumber href="tel:5877324242" title="Call us now">587-732-4242</CenteredPhoneNumber>
             </CenteredContent>
             <h2 className="sub-description">WE COVER ALL OVER EDMONTON, SHERWOOD PARK, LEDUC, NESKU, WEST EDMONTON, SPROOCE GROOVE</h2>
           </div>
@@ -125,6 +126,9 @@ const HeroContainer = styled.section`
     }
      h1{
      font-size:28px;
+     }
+     h2{
+     font-size:22px;
      }
   }
 `;
